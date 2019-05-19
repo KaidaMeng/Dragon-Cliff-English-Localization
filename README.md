@@ -1,0 +1,1 @@
+# Dragon Cliff English Localization
