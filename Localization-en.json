@@ -12052,8 +12052,8 @@
     {
       "SpecialEffectType": 7,
       "Name": "Recover",
-      "Description": "Recovers {heal} health when battle starts, excessed heal will be converted to damage absorption shield.",
-      "GeneralInfo": "Recovers [variable] health when battle starts, excessed heal will be converted to damage absorption shield."
+      "Description": "Recovers {heal} health when battle starts. Excess heal is converted to damage absorption shield.",
+      "GeneralInfo": "Recovers [variable] health when battle starts. Excess heal is converted to damage absorption shield."
     },
     {
       "SpecialEffectType": 8,
@@ -12453,15 +12453,15 @@
     },
     {
       "SpecialEffectType": 75,
-      "Name": "Excessed Damage",
-      "Description": "Whenever direct damage kills a unit, excessed damage will be done as real damage to a random enemy unit",
-      "GeneralInfo": "Whenever direct damage kills a unit, excessed damage will be done as real damage to a random enemy unit"
+      "Name": "Excessive Damage",
+      "Description": "Whenever direct damage kills a unit, excess damage is dealt as real damage to a random enemy unit",
+      "GeneralInfo": "Whenever direct damage kills a unit, excess damage is dealt as real damage to a random enemy unit"
     },
     {
       "SpecialEffectType": 76,
-      "Name": "Excessed Heal",
-      "Description": "All excessed heal will be applied to a random friendly unit with the least health percentage. (Healers only)",
-      "GeneralInfo": "All excessed heal will be applied to a random friendly unit with the least health percentage. (Healers only)"
+      "Name": "Excessive Heal",
+      "Description": "All excess heal is applied to a random friendly unit with the least health percentage. (Healers only)",
+      "GeneralInfo": "All excess heal is applied to a random friendly unit with the least health percentage. (Healers only)"
     },
     {
       "SpecialEffectType": 77,
@@ -12970,9 +12970,9 @@
     {
       "SpecialEffectType": 219,
       "Name": "Grand Heal",
-      "Description": "Heals all party members for {rate}% of their maximum health points when battle starts and excessed heal will be converted to damage absorption shield.",
-      "GeneralInfo": "Heals all party members for [variable percentage] of their maximum health points when battle starts and excessed heal will be converted to damage absorption shield."
-    },    
+      "Description": "Heals all party members for {rate}% of their maximum health points when battle starts. Excess heal is converted to damage absorption shield.",
+      "GeneralInfo": "Heals all party members for [variable percentage] of their maximum health points when battle starts. Excess heal is converted to damage absorption shield."
+    },
     {
       "SpecialEffectType": 220,
       "Name": "Power of Darkness",
