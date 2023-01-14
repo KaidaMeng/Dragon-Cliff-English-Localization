@@ -81,7 +81,7 @@
     {
       "SkillType": 1013,
       "Title": "Meteorolite",
-      "Description": "Hits enemy with hightest health points 3 times, each hit Deals <fire>{maindamagerate}% (of output capacity) fire</fire> and <caster>{casterdamagerate}% (of output capacity) caster's elemental</caster> damage, with each critical hit enemy receives an additional hit.",
+      "Description": "Hits enemy with highest health points 3 times, each hit Deals <fire>{maindamagerate}% (of output capacity) fire</fire> and <caster>{casterdamagerate}% (of output capacity) caster's elemental</caster> damage, with each critical hit enemy receives an additional hit.",
       "PassiveDescription": ""
     },
     {
