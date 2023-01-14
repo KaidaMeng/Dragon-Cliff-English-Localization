@@ -12988,8 +12988,8 @@
     {
       "SpecialEffectType": 222,
       "Name": "Hold On!",
-      "Description": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by {boost}%. In addition, increases Rotation’s damage rate per hit by {damage}%.",
-      "GeneralInfo": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by [variable percentage]. In addition, increases Rotation’s damage rate per hit by [variable percentage]."
+      "Description": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by {boost}%. In addition, increases Rotation’s damage per hit by {damage}%.",
+      "GeneralInfo": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by [variable percentage]. In addition, increases Rotation’s damage per hit by [variable percentage]."
     },
     {
       "SpecialEffectType": 223,
@@ -13297,8 +13297,8 @@
     {
       "SpecialEffectType": 295,
       "Name": "Tactician (Star)",
-      "Description": "Increases base damage rate of Grand Strategy by {rate}%, and increases Tactician's Damage Reflection by {rate}% for each skill cast, up to 10 stacks",
-      "GeneralInfo": "Increases base damage rate of Grand Strategy by [variable percentage], and increases Tactician's Damage Reflection by [variable percentage] for each skill cast, up to 10 stacks"
+      "Description": "Increases base damage of Grand Strategy by {rate}%, and increases Tactician's Damage Reflection by {rate}% for each skill cast, up to 10 stacks",
+      "GeneralInfo": "Increases base damage of Grand Strategy by [variable percentage], and increases Tactician's Damage Reflection by [variable percentage] for each skill cast, up to 10 stacks"
     }
     ,
     {
@@ -13395,8 +13395,8 @@
     {
       "SpecialEffectType": 309,
       "Name": "Red Horn (Star)",
-      "Description": "Increases base damage rate of Brutality by {rate}%. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate",
-      "GeneralInfo": "Increases base damage rate of Brutality by [variable percentage]. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate"
+      "Description": "Increases base damage of Brutality by {rate}%. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate",
+      "GeneralInfo": "Increases base damage of Brutality by [variable percentage]. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate"
     }
     ,
     {
@@ -15381,12 +15381,12 @@
     {
       "Type": 102,
       "Name": "Damage Enhancement",
-      "Description": "Thousand Knives no longer dispels, and increases base damage rate to {rate}%"
+      "Description": "Thousand Knives no longer dispels, and increases base damage by {rate}%"
     },
     {
       "Type": 103,
       "Name": "Dispel",
-      "Description": "Increases the number of dispels to {number}, and decreases damage rate of Thousand Knives by {rate}%"
+      "Description": "Increases the number of dispels to {number}, and decreases damage of Thousand Knives by {rate}%"
     },
     {
       "Type": 104,
@@ -15416,7 +15416,7 @@
     {
       "Type": 109,
       "Name": "Shift",
-      "Description": "Grand Meteorite’s elements are shifted to {type} and caster's element, and increases damage rate by {rate}%"
+      "Description": "Grand Meteorite’s elements are shifted to {type} and caster's element, and increases damage by {rate}%"
     },
     {
       "Type": 110,
