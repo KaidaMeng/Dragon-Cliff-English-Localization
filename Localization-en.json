@@ -495,8 +495,8 @@
     {
       "SkillType": 1084,
       "Title": "Punishment",
-      "Description": "Deals real damage to all enemy units, damage value equals to <real>{damagerate}% of caster's maximum health points</real>.",
-      "PassiveDescription": "Deals real damage to a random enemy unit each turn, damage value equals to <real>{damagerate}% of caster's maximum health points</real>"
+      "Description": "Deals real damage to all enemy units, damage value equal to <real>{damagerate}% of caster's maximum health points</real>.",
+      "PassiveDescription": "Deals real damage to a random enemy unit each turn, damage value equal to <real>{damagerate}% of caster's maximum health points</real>"
     },
     {
       "SkillType": 1085,
@@ -12244,7 +12244,7 @@
     {
       "SpecialEffectType": 40,
       "Name": "Thousand Worms",
-      "Description": "Deadly worms crawl to adventurers each second. Whenever adventurer has {max} on his/her body, a poisonous explosion is triggered to all adventurers, dealing {damagerate}% {damagetype} per worm. \nWorm Nest casts 'Gu' every {chargetime} seconds, stun all adventurers for {stunseconds} seconds, sucking life, equals to {lifedrinkrate}% of Wom Nest's output, out of adventurers. Any divine damage may interrupt 'Gu', and stun Worm Nest for {selfstuns} seconds.",
+      "Description": "Deadly worms crawl to adventurers each second. Whenever adventurer has {max} on his/her body, a poisonous explosion is triggered to all adventurers, dealing {damagerate}% {damagetype} per worm. \nWorm Nest casts 'Gu' every {chargetime} seconds, stun all adventurers for {stunseconds} seconds, sucking life, equal to {lifedrinkrate}% of Wom Nest's output, out of adventurers. Any divine damage may interrupt 'Gu', and stun Worm Nest for {selfstuns} seconds.",
       "GeneralInfo": ""
     },
     {
@@ -12682,8 +12682,8 @@
     {
       "SpecialEffectType": 114,
       "Name": "Flying Feather",
-      "Description": "Reduces all damage taken by {rate}% when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equals to wearer's Damage Reflection Rate * attacker's Resistance",
-      "GeneralInfo": "Reduces all damage taken by [variable percentage] when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equals to wearer's Damage Reflection Rate * attacker's Resistance"
+      "Description": "Reduces all damage taken by {rate}% when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equal to wearer's Damage Reflection Rate * attacker's Resistance",
+      "GeneralInfo": "Reduces all damage taken by [variable percentage] when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equal to wearer's Damage Reflection Rate * attacker's Resistance"
     },
     {
       "SpecialEffectType": 115,
@@ -12934,8 +12934,8 @@
     {
       "SpecialEffectType": 210,
       "Name": "Iron Blood Enhancement",
-      "Description": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equals to {resilience}% of the Duelist, and {reflection}% Damage Reflection Rate.",
-      "GeneralInfo": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equals to [variable percentage] of the Duelist, and [variable percentage] Damage Reflection Rate."
+      "Description": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equal to {resilience}% of the Duelist, and {reflection}% Damage Reflection Rate.",
+      "GeneralInfo": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equal to [variable percentage] of the Duelist, and [variable percentage] Damage Reflection Rate."
     },
     {
       "SpecialEffectType": 211,
@@ -12982,8 +12982,8 @@
     {
       "SpecialEffectType": 221,
       "Name": "Demon of the Night",
-      "Description": "Night Blade exclusive (unique): increases Effect Hit Rating by {boost}. Poisonous Mist also decreases targets’ Effect Hit Rating by {decay}%. In addition, enemy unit receives physical damage equals to {damage}% of Night Blade’s Output Capacity when performs turns.",
-      "GeneralInfo": "Night Blade exclusive (unique): increases Effect Hit Rating by [variable]. Poisonous Mist also decreases targets’ Effect Hit Rating by [variable percentage]. In addition, enemy unit receives physical damage equals to [variable percentage] of Night Blade’s Output Capacity when performs turns."
+      "Description": "Night Blade exclusive (unique): increases Effect Hit Rating by {boost}. Poisonous Mist also decreases targets’ Effect Hit Rating by {decay}%. In addition, enemy unit receives physical damage equal to {damage}% of Night Blade’s Output Capacity when performs turns.",
+      "GeneralInfo": "Night Blade exclusive (unique): increases Effect Hit Rating by [variable]. Poisonous Mist also decreases targets’ Effect Hit Rating by [variable percentage]. In addition, enemy unit receives physical damage equal to [variable percentage] of Night Blade’s Output Capacity when performs turns."
     },
     {
       "SpecialEffectType": 222,
@@ -13000,8 +13000,8 @@
     {
       "SpecialEffectType": 224,
       "Name": "Thorns",
-      "Description": "Every adventurer has the same Damage Reflection Rate equals to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equals to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)",
-      "GeneralInfo": "Every adventurer has the same Damage Reflection Rate equals to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equals to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)"
+      "Description": "Every adventurer has the same Damage Reflection Rate equal to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equal to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)",
+      "GeneralInfo": "Every adventurer has the same Damage Reflection Rate equal to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equal to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)"
     },
     {
       "SpecialEffectType": 225,
@@ -13012,8 +13012,8 @@
     {
       "SpecialEffectType": 226,
       "Name": "Annihilate",
-      "Description": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equals to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by {effectrate}% (up to 100%) and Output, Resistance and Resilience by {output}% (up to 50%)",
-      "GeneralInfo": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equals to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by [variable percentage] (up to 100%) and Output Capacity by [variable percentage] (up to 50%)"
+      "Description": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equal to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by {effectrate}% (up to 100%) and Output, Resistance and Resilience by {output}% (up to 50%)",
+      "GeneralInfo": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equal to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by [variable percentage] (up to 100%) and Output Capacity by [variable percentage] (up to 50%)"
     },
     {
       "SpecialEffectType": 227,
@@ -13054,8 +13054,8 @@
     {
       "SpecialEffectType": 234,
       "Name": "Penetration",
-      "Description": "Damage ignores targets’ Element Resistance (equals to {resistance}% of caster’s corresponding Element Resistance value) and Resilience (equals to {resilence}% of caster’s Resilience)",
-      "GeneralInfo": "Damage ignores targets’ Element Resistance (equals to [variable percentage] of caster’s corresponding Element Resistance value) and Resilience (equals to [variable percentage] of caster’s Resilience)"
+      "Description": "Damage ignores targets’ Element Resistance (equal to {resistance}% of caster’s corresponding Element Resistance value) and Resilience (equal to {resilence}% of caster’s Resilience)",
+      "GeneralInfo": "Damage ignores targets’ Element Resistance (equal to [variable percentage] of caster’s corresponding Element Resistance value) and Resilience (equal to [variable percentage] of caster’s Resilience)"
     },
     {
       "SpecialEffectType": 235,
@@ -13166,8 +13166,8 @@
     },{
       "SpecialEffectType": 271,
       "Name": "Poisonous Needles",
-      "Description": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equals to {rate}% of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs {cost} Ghost Breath Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equals to [variable percentage] of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs [variable] Ghost Breath Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equal to {rate}% of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs {cost} Ghost Breath Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equal to [variable percentage] of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs [variable] Ghost Breath Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 272,
       "Name": "First Aid",
@@ -13311,8 +13311,8 @@
     {
       "SpecialEffectType": 297,
       "Name": "Street Man (Star)",
-      "Description": "Increases the number of hits for Crash by {hit}. Each hit reduces target's Effect Resistance Rating by value equals to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted",
-      "GeneralInfo": "Increases the number of hits for Crash by [variable]. Each hit reduces target's Effect Resistance Rating by value equals to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted"
+      "Description": "Increases the number of hits for Crash by {hit}. Each hit reduces target's Effect Resistance Rating by value equal to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted",
+      "GeneralInfo": "Increases the number of hits for Crash by [variable]. Each hit reduces target's Effect Resistance Rating by value equal to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted"
     }
     ,
     {
@@ -13332,8 +13332,8 @@
     {
       "SpecialEffectType": 300,
       "Name": "Killer (Star)",
-      "Description": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equals to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage",
-      "GeneralInfo": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equals to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage"
+      "Description": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equal to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage",
+      "GeneralInfo": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equal to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage"
     }
     ,
     {
@@ -13374,8 +13374,8 @@
     {
       "SpecialEffectType": 306,
       "Name": "Snow Maiden (Star)",
-      "Description": "Has Effect Hit Rating equals to level * {levelrate}. Effect Hit Rating received from gear are increased by {extrarate}%. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure",
-      "GeneralInfo": "Has Effect Hit Rating equals to level * [variable]. Effect Hit Rating received from gear are increased by [variable percentage]. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure"
+      "Description": "Has Effect Hit Rating equal to level * {levelrate}. Effect Hit Rating received from gear are increased by {extrarate}%. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure",
+      "GeneralInfo": "Has Effect Hit Rating equal to level * [variable]. Effect Hit Rating received from gear are increased by [variable percentage]. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure"
     }
     ,
     {
@@ -13437,8 +13437,8 @@
     {
       "SpecialEffectType": 317,
       "Name": "Furious",
-      "Description": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equals to {rate}% of Paladin’s resilience",
-      "GeneralInfo": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equals to [variable percentage] of Paladin’s resilience"
+      "Description": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equal to {rate}% of Paladin’s resilience",
+      "GeneralInfo": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equal to [variable percentage] of Paladin’s resilience"
     }
     ,
     {
@@ -15391,7 +15391,7 @@
     {
       "Type": 104,
       "Name": "Shield",
-      "Description": "Rotation grants Damage Absorption Shield for each critical damage dealt, shield absorption equals to {rate}% of critical damage done"
+      "Description": "Rotation grants Damage Absorption Shield for each critical damage dealt, shield absorption equal to {rate}% of critical damage done"
     },
     {
       "Type": 105,
