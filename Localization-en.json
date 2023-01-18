@@ -81,7 +81,7 @@
     {
       "SkillType": 1013,
       "Title": "Meteorolite",
-      "Description": "Hits enemy with hightest health points 3 times, each hit Deals <fire>{maindamagerate}% (of output capacity) fire</fire> and <caster>{casterdamagerate}% (of output capacity) caster's elemental</caster> damage, with each critical hit enemy receives an additional hit.",
+      "Description": "Hits enemy with highest health points 3 times, each hit Deals <fire>{maindamagerate}% (of output capacity) fire</fire> and <caster>{casterdamagerate}% (of output capacity) caster's elemental</caster> damage, with each critical hit enemy receives an additional hit.",
       "PassiveDescription": ""
     },
     {
@@ -141,7 +141,7 @@
     {
       "SkillType": 1023,
       "Title": "Rebirth",
-      "Description": "Prevent caster from death for once per adventure, and heals <heal>{healrate}%</heal> of caster's maximum life.",
+      "Description": "Prevent caster from death once per adventure, and heals <heal>{healrate}%</heal> of caster's maximum life.",
       "PassiveDescription": ""
     },
     {
@@ -495,8 +495,8 @@
     {
       "SkillType": 1084,
       "Title": "Punishment",
-      "Description": "Deals real damage to all enemy units, damage value equals to <real>{damagerate}% of caster's maximum health points</real>.",
-      "PassiveDescription": "Deals real damage to a random enemy unit each turn, damage value equals to <real>{damagerate}% of caster's maximum health points</real>"
+      "Description": "Deals real damage to all enemy units, damage value equal to <real>{damagerate}% of caster's maximum health points</real>.",
+      "PassiveDescription": "Deals real damage to a random enemy unit each turn, damage value equal to <real>{damagerate}% of caster's maximum health points</real>"
     },
     {
       "SkillType": 1085,
@@ -1127,7 +1127,7 @@
     {
       "BattleEffectType": 104,
       "Title": "Decaying Resistances",
-      "Description": "Loose resistances per second",
+      "Description": "Lose resistances per second",
       "Short": ""
     },
     {
@@ -1157,7 +1157,7 @@
     {
       "BattleEffectType": 109,
       "Title": "Undead",
-      "Description": "Prevents death for once",
+      "Description": "Prevents death once",
       "Short": ""
     },
     {
@@ -10068,7 +10068,7 @@
     },
     {
       "UiComponentType": 795,
-      "Name": "Do you confirm to repair this boat? (cost {Money} golds, and boat will lose 10% durability used)"
+      "Name": "Do you confirm to repair this boat? (cost {Money} gold, and boat will lose 10% durability used)"
     },
     {
       "UiComponentType": 796,
@@ -10324,7 +10324,7 @@
     },
     {
       "UiComponentType": 859,
-      "Name": "You cannot collect more than {Amount} golds"
+      "Name": "You cannot collect more than {Amount} gold"
     },
     {
       "UiComponentType": 860,
@@ -11766,7 +11766,7 @@
     },
     {
       "AttributeType": 214,
-      "Name": "Heal Effectivenesss",
+      "Name": "Heal Effectiveness",
       "Short": "HEF",
       "Description": "Increases heal received."
     },
@@ -11868,7 +11868,7 @@
     },
     {
       "AttributeType": 233,
-      "Name": "Phyical Penetration",
+      "Name": "Physical Penetration",
       "Short": "PHP",
       "Description": "Percentage of Physical Resistance to be ignored when dealing damage"
     },
@@ -12142,8 +12142,8 @@
     {
       "SpecialEffectType": 22,
       "Name": "Monk's Eyes",
-      "Description": "You may never loose more than {maxloss}% of your maximum health in 1 hit.",
-      "GeneralInfo": "You may never loose more than [variable percentage] of your maximum health in 1 hit."
+      "Description": "You may never lose more than {maxloss}% of your maximum health in 1 hit.",
+      "GeneralInfo": "You may never lose more than [variable percentage] of your maximum health in 1 hit."
     },
     {
       "SpecialEffectType": 23,
@@ -12244,7 +12244,7 @@
     {
       "SpecialEffectType": 40,
       "Name": "Thousand Worms",
-      "Description": "Deadly worms crawl to adventurers each second. Whenever adventurer has {max} on his/her body, a poisonous explosion is triggered to all adventurers, dealing {damagerate}% {damagetype} per worm. \nWorm Nest casts 'Gu' every {chargetime} seconds, stun all adventurers for {stunseconds} seconds, sucking life, equals to {lifedrinkrate}% of Wom Nest's output, out of adventurers. Any divine damage may interrupt 'Gu', and stun Worm Nest for {selfstuns} seconds.",
+      "Description": "Deadly worms crawl to adventurers each second. Whenever adventurer has {max} on his/her body, a poisonous explosion is triggered to all adventurers, dealing {damagerate}% {damagetype} per worm. \nWorm Nest casts 'Gu' every {chargetime} seconds, stun all adventurers for {stunseconds} seconds, sucking life, equal to {lifedrinkrate}% of Wom Nest's output, out of adventurers. Any divine damage may interrupt 'Gu', and stun Worm Nest for {selfstuns} seconds.",
       "GeneralInfo": ""
     },
     {
@@ -12646,8 +12646,8 @@
     {
       "SpecialEffectType": 108,
       "Name": "Dead General's Spirit",
-      "Description": "Increase all resistances by {rate}% whenever kills an enemy, up to {max}%. This effect cannot be dispelled, and last whole adventure.",
-      "GeneralInfo": "Increase all resistances by [variable percentage] whenever kills an enemy, up to [variable percentage]. This effect cannot be dispelled, and last whole adventure."
+      "Description": "Increase all resistances by {rate}% whenever kills an enemy, up to {max}%. This effect cannot be dispelled, and lasts whole adventure.",
+      "GeneralInfo": "Increase all resistances by [variable percentage] whenever kills an enemy, up to [variable percentage]. This effect cannot be dispelled, and lasts whole adventure."
     },
     {
       "SpecialEffectType": 109,
@@ -12682,8 +12682,8 @@
     {
       "SpecialEffectType": 114,
       "Name": "Flying Feather",
-      "Description": "Reduces all damage taken by {rate}% when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equals to wearer's Damage Reflection Rate * attacker's Resistance",
-      "GeneralInfo": "Reduces all damage taken by [variable percentage] when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equals to wearer's Damage Reflection Rate * attacker's Resistance"
+      "Description": "Reduces all damage taken by {rate}% when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equal to wearer's Damage Reflection Rate * attacker's Resistance",
+      "GeneralInfo": "Reduces all damage taken by [variable percentage] when carrying Heal over Time effects. In addition, there is 30% chance of reflecting additional Real Damage when taken hit, damage value equal to wearer's Damage Reflection Rate * attacker's Resistance"
     },
     {
       "SpecialEffectType": 115,
@@ -12934,8 +12934,8 @@
     {
       "SpecialEffectType": 210,
       "Name": "Iron Blood Enhancement",
-      "Description": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equals to {resilience}% of the Duelist, and {reflection}% Damage Reflection Rate.",
-      "GeneralInfo": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equals to [variable percentage] of the Duelist, and [variable percentage] Damage Reflection Rate."
+      "Description": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equal to {resilience}% of the Duelist, and {reflection}% Damage Reflection Rate.",
+      "GeneralInfo": "Duelist exclusive: In addition to existing attribute boosts, Iron Blood grants targets Resilience equal to [variable percentage] of the Duelist, and [variable percentage] Damage Reflection Rate."
     },
     {
       "SpecialEffectType": 211,
@@ -12982,14 +12982,14 @@
     {
       "SpecialEffectType": 221,
       "Name": "Demon of the Night",
-      "Description": "Night Blade exclusive (unique): increases Effect Hit Rating by {boost}. Poisonous Mist also decreases targets’ Effect Hit Rating by {decay}%. In addition, enemy unit receives physical damage equals to {damage}% of Night Blade’s Output Capacity when performs turns.",
-      "GeneralInfo": "Night Blade exclusive (unique): increases Effect Hit Rating by [variable]. Poisonous Mist also decreases targets’ Effect Hit Rating by [variable percentage]. In addition, enemy unit receives physical damage equals to [variable percentage] of Night Blade’s Output Capacity when performs turns."
+      "Description": "Night Blade exclusive (unique): increases Effect Hit Rating by {boost}. Poisonous Mist also decreases targets’ Effect Hit Rating by {decay}%. In addition, enemy unit receives physical damage equal to {damage}% of Night Blade’s Output Capacity when performs turns.",
+      "GeneralInfo": "Night Blade exclusive (unique): increases Effect Hit Rating by [variable]. Poisonous Mist also decreases targets’ Effect Hit Rating by [variable percentage]. In addition, enemy unit receives physical damage equal to [variable percentage] of Night Blade’s Output Capacity when performs turns."
     },
     {
       "SpecialEffectType": 222,
       "Name": "Hold On!",
-      "Description": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by {boost}%. In addition, increases Rotation’s damage rate per hit by {damage}%.",
-      "GeneralInfo": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by [variable percentage]. In addition, increases Rotation’s damage rate per hit by [variable percentage]."
+      "Description": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by {boost}%. In addition, increases Rotation’s damage per hit by {damage}%.",
+      "GeneralInfo": "Chubby Lady exclusive (unique): increases maximum absorbable values for all party members’ Damage Absorption Shields by [variable percentage]. In addition, increases Rotation’s damage per hit by [variable percentage]."
     },
     {
       "SpecialEffectType": 223,
@@ -13000,20 +13000,20 @@
     {
       "SpecialEffectType": 224,
       "Name": "Thorns",
-      "Description": "Every adventurer has the same Damage Reflection Rate equals to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equals to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)",
-      "GeneralInfo": "Every adventurer has the same Damage Reflection Rate equals to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equals to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)"
+      "Description": "Every adventurer has the same Damage Reflection Rate equal to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equal to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)",
+      "GeneralInfo": "Every adventurer has the same Damage Reflection Rate equal to 200% of the total Damage Reflection Rate from all party members, and non-reflect damage done is reduced by 90%. Whenever enemy unit takes turn, reflect damage (equal to enemy's Resilience * 1000% team total Damage Reflection Rate) is automatically inflicted to unit with the highest health percentage (this effect will not trigger if any team member is dead)"
     },
     {
       "SpecialEffectType": 225,
       "Name": "Guilt",
-      "Description": "Damage dealt no longer misses. Effect Resistance Rate is decreased by {reduction}%, and direct  released from skill/tactic that are targeting all enemy units are increased by {directrate}%",
-      "GeneralInfo": "Damage dealt no longer misses. Effect Resistance Rate is decreased by [variable percentage], and direct damage released from skill/tactic that are targeting all enemy units are increased by [variable percentage]"
+      "Description": "Damage dealt no longer misses. Effect Resistance Rate is decreased by {reduction}%, and direct damage from skill/tactic that are targeting all enemy units are increased by {directrate}%",
+      "GeneralInfo": "Damage dealt no longer misses. Effect Resistance Rate is decreased by [variable percentage], and direct damage from skill/tactic that are targeting all enemy units are increased by [variable percentage]"
     },
     {
       "SpecialEffectType": 226,
       "Name": "Annihilate",
-      "Description": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equals to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by {effectrate}% (up to 100%) and Output, Resistance and Resilience by {output}% (up to 50%)",
-      "GeneralInfo": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equals to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by [variable percentage] (up to 100%) and Output Capacity by [variable percentage] (up to 50%)"
+      "Description": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equal to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by {effectrate}% (up to 100%) and Output, Resistance and Resilience by {output}% (up to 50%)",
+      "GeneralInfo": "Reduces Effect Resistance Rating for all enmy units at start of battle, value equal to the maximum Effect Hit Rating from adventurers. In addition, every negative effect on enemy unit decreases its Effect Resistance Rate by [variable percentage] (up to 100%) and Output Capacity by [variable percentage] (up to 50%)"
     },
     {
       "SpecialEffectType": 227,
@@ -13024,8 +13024,8 @@
     {
       "SpecialEffectType": 228,
       "Name": "Healing Resistance",
-      "Description": "Healers exclusive: direct heal increase targets’ Effect Resistance Rate by {rate}% for 3 turns",
-      "GeneralInfo": "Healers exclusive: direct heal increase targets’ Effect Resistance Rate by [variable percentage] for 3 turns"
+      "Description": "Healers exclusive: direct heal increases targets’ Effect Resistance Rate by {rate}% for 3 turns",
+      "GeneralInfo": "Healers exclusive: direct heal increases targets’ Effect Resistance Rate by [variable percentage] for 3 turns"
     },
     {
       "SpecialEffectType": 229,
@@ -13054,8 +13054,8 @@
     {
       "SpecialEffectType": 234,
       "Name": "Penetration",
-      "Description": "Damage ignores targets’ Element Resistance (equals to {resistance}% of caster’s corresponding Element Resistance value) and Resilience (equals to {resilence}% of caster’s Resilience)",
-      "GeneralInfo": "Damage ignores targets’ Element Resistance (equals to [variable percentage] of caster’s corresponding Element Resistance value) and Resilience (equals to [variable percentage] of caster’s Resilience)"
+      "Description": "Damage ignores targets’ Element Resistance (equal to {resistance}% of caster’s corresponding Element Resistance value) and Resilience (equal to {resilence}% of caster’s Resilience)",
+      "GeneralInfo": "Damage ignores targets’ Element Resistance (equal to [variable percentage] of caster’s corresponding Element Resistance value) and Resilience (equal to [variable percentage] of caster’s Resilience)"
     },
     {
       "SpecialEffectType": 235,
@@ -13141,23 +13141,23 @@
     },{
       "SpecialEffectType": 267,
       "Name": "Soul Locker: Random",
-      "Description": "Release Device: locks a random enemy unit for {time} seconds. This effect can not be resisted, immuned, and its lasting time is not effected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: locks a random enemy unit for [variable] seconds. This effect can not be resisted, immuned, and its lasting time is not effected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: locks a random enemy unit for {time} seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not effected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: locks a random enemy unit for [variable] seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not effected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 268,
       "Name": "Soul Locker: High Speed",
-      "Description": "Release Device: locks an enemy unit with the highest Speed for {time} seconds. This effect can not be resisted, immuned, and its lasting time is not effected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: locks an enemy unit with the highest Speed for [variable] seconds. This effect can not be resisted, immuned, and its lasting time is not effected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: locks an enemy unit with the highest Speed for {time} seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not effected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: locks an enemy unit with the highest Speed for [variable] seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not effected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 269,
       "Name": "Soul Locker: High Output",
-      "Description": "Release Device: locks an enemy unit with the highest Output Capacity for {time} seconds. This effect can not be resisted, immuned, and its lasting time is not effected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: locks an enemy unit with the highest Output Capacity for [variable] seconds. This effect can not be resisted, immuned, and its lasting time is not effected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: locks an enemy unit with the highest Output Capacity for {time} seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not effected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: locks an enemy unit with the highest Output Capacity for [variable] seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not effected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 270,
       "Name": "Soul Locker: High Health Points",
-      "Description": "Release Device: locks an enemy unit with the highest Health Points for {time} seconds. This effect can not be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: locks an enemy unit with the highest Health Points for [variable] seconds. This effect can not be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: locks an enemy unit with the highest Health Points for {time} seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs {cost} Prism Light Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: locks an enemy unit with the highest Health Points for [variable] seconds. This effect can not be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs [variable] Prism Light Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 266,
       "Name": "Shield Remover",
@@ -13166,8 +13166,8 @@
     },{
       "SpecialEffectType": 271,
       "Name": "Poisonous Needles",
-      "Description": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equals to {rate}% of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs {cost} Ghost Breath Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equals to [variable percentage] of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs [variable] Ghost Breath Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equal to {rate}% of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs {cost} Ghost Breath Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: deals wearer's primary elemental damage to all enemy units, damage value equal to [variable percentage] of wearer's output capacity * the number of positive effect layers on wearer. Damage dealt is non-direct. Costs [variable] Ghost Breath Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 272,
       "Name": "First Aid",
@@ -13181,8 +13181,8 @@
     },{
       "SpecialEffectType": 274,
       "Name": "Pacemaker",
-      "Description": "Release Device: prevents adventure team members from death for once (up to 5 times). Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: prevents adventure team members from death for once (up to 5 times). Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: prevents adventure team members from death once (up to 5 times). Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: prevents adventure team members from death once (up to 5 times). Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 275,
       "Name": "Dispeller: Random",
@@ -13196,18 +13196,18 @@
     },{
       "SpecialEffectType": 277,
       "Name": "Defense Breaker: Random",
-      "Description": "Release Device: decreases a random enemy unit's All Resistances by {rate}% for {seconds} seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: decreases a random enemy unit's All Resistances by [variable percentage] for [variable] seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: decreases a random enemy unit's All Resistances by {rate}% for {seconds} seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: decreases a random enemy unit's All Resistances by [variable percentage] for [variable] seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 278,
       "Name": "Defense Breaker: High Resistance",
-      "Description": "Release Device: decreases an enemy unit (of the highest All Resistance)'s All Resistances by {rate}% for {seconds} seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: decreases an enemy unit (of the highest All Resistance)'s All Resistances by [variable percentage] for [variable] seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: decreases an enemy unit (of the highest All Resistance)'s All Resistances by {rate}% for {seconds} seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: decreases an enemy unit (of the highest All Resistance)'s All Resistances by [variable percentage] for [variable] seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 279,
       "Name": "Defense Breaker: High Health Points",
-      "Description": "Release Device: decreases an enemy unit (of the highest Health Points)'s All Resistances by {rate}% for {seconds} seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: decreases an enemy unit (of the highest Health Points)'s All Resistances by [variable percentage] for [variable] seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: decreases an enemy unit (of the highest Health Points)'s All Resistances by {rate}% for {seconds} seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs {cost} Vital Energy Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: decreases an enemy unit (of the highest Health Points)'s All Resistances by [variable percentage] for [variable] seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs [variable] Vital Energy Points. Release Device is triggered automatically when cost requirement is met"
     },{
       "SpecialEffectType": 280,
       "Name": "Chaotic Flow Trigger: Random",
@@ -13231,8 +13231,8 @@
     },{
       "SpecialEffectType": 284,
       "Name": "Vitality Suppressor",
-      "Description": "Release Device: reduces a random enemy unit's Heal Effectiveness to 0 for {time} seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs {cost} Chaotic Spirit Points. Release Device is triggered automatically when cost requirement is met",
-      "GeneralInfo": "Release Device: reduces a random enemy unit's Heal Effectiveness to 0 for [variable] seconds. This effect cannot be resisted, immuned, and its lasting time is not affected by any other modifiers. Costs [variable] Chaotic Spirit Points. Release Device is triggered automatically when cost requirement is met"
+      "Description": "Release Device: reduces a random enemy unit's Heal Effectiveness to 0 for {time} seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs {cost} Chaotic Spirit Points. Release Device is triggered automatically when cost requirement is met",
+      "GeneralInfo": "Release Device: reduces a random enemy unit's Heal Effectiveness to 0 for [variable] seconds. This effect cannot be resisted, prevented by immunity, and its lasting time is not affected by any other modifiers. Costs [variable] Chaotic Spirit Points. Release Device is triggered automatically when cost requirement is met"
     },
     {
       "SpecialEffectType": 285,
@@ -13297,8 +13297,8 @@
     {
       "SpecialEffectType": 295,
       "Name": "Tactician (Star)",
-      "Description": "Increases base damage rate of Grand Strategy by {rate}%, and increases Tactician's Damage Reflection by {rate}% for each skill cast, up to 10 stacks",
-      "GeneralInfo": "Increases base damage rate of Grand Strategy by [variable percentage], and increases Tactician's Damage Reflection by [variable percentage] for each skill cast, up to 10 stacks"
+      "Description": "Increases base damage of Grand Strategy by {rate}%, and increases Tactician's Damage Reflection by {rate}% for each skill cast, up to 10 stacks",
+      "GeneralInfo": "Increases base damage of Grand Strategy by [variable percentage], and increases Tactician's Damage Reflection by [variable percentage] for each skill cast, up to 10 stacks"
     }
     ,
     {
@@ -13311,15 +13311,15 @@
     {
       "SpecialEffectType": 297,
       "Name": "Street Man (Star)",
-      "Description": "Increases the number of hits for Crash by {hit}. Each hit reduces target's Effect Resistance Rating by value equals to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted",
-      "GeneralInfo": "Increases the number of hits for Crash by [variable]. Each hit reduces target's Effect Resistance Rating by value equals to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted"
+      "Description": "Increases the number of hits for Crash by {hit}. Each hit reduces target's Effect Resistance Rating by value equal to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted",
+      "GeneralInfo": "Increases the number of hits for Crash by [variable]. Each hit reduces target's Effect Resistance Rating by value equal to 200% of Street Man's Effect Resistance Rating, for 1 turn, and up to 5 stacks. This effect cannot be resisted"
     }
     ,
     {
       "SpecialEffectType": 298,
       "Name": "Drunk Reader (Star)",
-      "Description": "{chance}% chance of reviving with {revive}% maximum health recovered when fatally damaged. Deals 10000% damage (of caster's element type) to all enemy units. Cost {cost} golds per trigger. This effect cannot be triggered if town does not have enough golds. This effect has the least priority compares to other reviving effects/skills",
-      "GeneralInfo": "[Variable percentage] chance of reviving with [variable percentage] maximum health recovered when fatally damaged. Deals 10000% damage (of caster's element type) to all enemy units. Cost [variable] golds per trigger. This effect cannot be triggered if town does not have enough golds. This effect has the least priority compares to other reviving effects/skills"
+      "Description": "{chance}% chance of reviving with {revive}% maximum health recovered when fatally damaged. Deals 10000% damage (of caster's element type) to all enemy units. Cost {cost} gold per trigger. This effect cannot be triggered if town does not have enough gold. This effect has the least priority compares to other reviving effects/skills",
+      "GeneralInfo": "[Variable percentage] chance of reviving with [variable percentage] maximum health recovered when fatally damaged. Deals 10000% damage (of caster's element type) to all enemy units. Cost [variable] gold per trigger. This effect cannot be triggered if town does not have enough gold. This effect has the least priority compares to other reviving effects/skills"
     }
     ,
     {
@@ -13332,8 +13332,8 @@
     {
       "SpecialEffectType": 300,
       "Name": "Killer (Star)",
-      "Description": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equals to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage",
-      "GeneralInfo": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equals to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage"
+      "Description": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equal to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage",
+      "GeneralInfo": "{chance}% chance of receiving one layer of ‘Focused Energy’ whenever party member dodges damage. In addition, whenever killer dodges damage, random enemy unit receives Reflect Damage (as Real Damage equal to killer’s Damage Reflection Rate * Output Capacity), all ‘Focused Energy’ are consumed and each layer adds an extra hit for the reflected damage"
     }
     ,
     {
@@ -13374,8 +13374,8 @@
     {
       "SpecialEffectType": 306,
       "Name": "Snow Maiden (Star)",
-      "Description": "Has Effect Hit Rating equals to level * {levelrate}. Effect Hit Rating received from gears are increased by {extrarate}%. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure",
-      "GeneralInfo": "Has Effect Hit Rating equals to level * [variable]. Effect Hit Rating received from gears are increased by [variable percentage]. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure"
+      "Description": "Has Effect Hit Rating equal to level * {levelrate}. Effect Hit Rating received from gear are increased by {extrarate}%. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure",
+      "GeneralInfo": "Has Effect Hit Rating equal to level * [variable]. Effect Hit Rating received from gear are increased by [variable percentage]. In addition, when Snow Maiden kills an enemy unit, she receives 20% increase of Effect Hit Rating, up to 5 stacks. This effect cannot be dispelled, and lasts through adventure"
     }
     ,
     {
@@ -13395,8 +13395,8 @@
     {
       "SpecialEffectType": 309,
       "Name": "Red Horn (Star)",
-      "Description": "Increases base damage rate of Brutality by {rate}%. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate",
-      "GeneralInfo": "Increases base damage rate of Brutality by [variable percentage]. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate"
+      "Description": "Increases base damage of Brutality by {rate}%. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate",
+      "GeneralInfo": "Increases base damage of Brutality by [variable percentage]. Blade Rain reduces target's Hit Adjustment Rate by 10% for 5 seconds whenver hits, this effect cannot be resisted. Red Horn has 30% extra Hit Adjustment Rate"
     }
     ,
     {
@@ -13416,8 +13416,8 @@
     {
       "SpecialEffectType": 313,
       "Name": "Slicing",
-      "Description": "Killer exclusive: reduce cost for Thousand Knives by 50%, and damage is increased by {rate}%. Each dispellable positive effect on target will reduce overall damage increasement by 25%",
-      "GeneralInfo": "Killer exclusive: reduce cost for Thousand Knives by 50%, and damage is increased by [variable percentage]. Each dispellable positive effect on target will reduce overall damage increasement by 25%"
+      "Description": "Killer exclusive: reduce cost for Thousand Knives by 50%, and damage is increased by {rate}%. Each dispellable positive effect on target will reduce overall damage increase by 25%",
+      "GeneralInfo": "Killer exclusive: reduce cost for Thousand Knives by 50%, and damage is increased by [variable percentage]. Each dispellable positive effect on target will reduce overall damage increase by 25%"
     }
     ,
     {
@@ -13437,8 +13437,8 @@
     {
       "SpecialEffectType": 317,
       "Name": "Furious",
-      "Description": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equals to {rate}% of Paladin’s resilience",
-      "GeneralInfo": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equals to [variable percentage] of Paladin’s resilience"
+      "Description": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equal to {rate}% of Paladin’s resilience",
+      "GeneralInfo": "Paladin exclusive: taunted enemies have resilience reduced, and the amount equal to [variable percentage] of Paladin’s resilience"
     }
     ,
     {
@@ -14439,7 +14439,7 @@
     {
       "EffectType": 10,
       "Name": "Wealth",
-      "Description": "Whenever an adventure is completed, {amount} golds will be contributed. (Max. 5000 golds per contribution)"
+      "Description": "Whenever an adventure is completed, {amount} gold will be contributed. (Max. 5000 gold per contribution)"
     },
     {
       "EffectType": 11,
@@ -14819,7 +14819,7 @@
     {
       "ManualType": 1,
       "Name": "Upgrade Cards",
-      "Description": "The player may level up adventurers by spending practice points. \n\nEvery 3 levels, the player is given the opportunity to pick up an upgrade card for the adventurer.\n\nUpgrade cards can boost adventurer’s attributes, unlock tactics and enable elemental effects.\n\nThe player may redraw existing upgrade cards by spending golds. There is no limit on the number of redraws, although with each redraw the cost may increase."
+      "Description": "The player may level up adventurers by spending practice points. \n\nEvery 3 levels, the player is given the opportunity to pick up an upgrade card for the adventurer.\n\nUpgrade cards can boost adventurer’s attributes, unlock tactics and enable elemental effects.\n\nThe player may redraw existing upgrade cards by spending gold. There is no limit on the number of redraws, although with each redraw the cost may increase."
     },
     {
       "ManualType": 2,
@@ -15381,17 +15381,17 @@
     {
       "Type": 102,
       "Name": "Damage Enhancement",
-      "Description": "Thousand Knives no longer dispels, and increases base damage rate to {rate}%"
+      "Description": "Thousand Knives no longer dispels, and increases base damage by {rate}%"
     },
     {
       "Type": 103,
       "Name": "Dispel",
-      "Description": "Increases the number of dispels to {number}, and decreases damage rate of Thousand Knives by {rate}%"
+      "Description": "Increases the number of dispels to {number}, and decreases damage of Thousand Knives by {rate}%"
     },
     {
       "Type": 104,
       "Name": "Shield",
-      "Description": "Rotation grants Damage Absorption Shield for each critical damage dealt, shield absorption equals to {rate}% of critical damage done"
+      "Description": "Rotation grants Damage Absorption Shield for each critical damage dealt, shield absorption equal to {rate}% of critical damage done"
     },
     {
       "Type": 105,
@@ -15416,7 +15416,7 @@
     {
       "Type": 109,
       "Name": "Shift",
-      "Description": "Grand Meteorite’s elements are shifted to {type} and caster's element, and increases damage rate by {rate}%"
+      "Description": "Grand Meteorite’s elements are shifted to {type} and caster's element, and increases damage by {rate}%"
     },
     {
       "Type": 110,
